@@ -67,3 +67,23 @@ docker build -t aws-app .
 docker run -p 3000:3000 aws-app
 
 ```
+
+### Docker images delete 
+```
+docker rmi  id
+```
+
+```
+docker rmi -f id
+```
+
+### Docker running list
+```
+docker ps
+```
+
+### Stop Running Docker
+```
+docker stop id
+```
+ 
